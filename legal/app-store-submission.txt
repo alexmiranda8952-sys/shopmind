@@ -1,0 +1,153 @@
+================================================================
+SHOPMIND — APP STORE CONNECT SUBMISSION SHEET
+Paste each field into the matching box in App Store Connect.
+================================================================
+
+----------------------------------------------------------------
+APP NAME  (max 30 chars)
+----------------------------------------------------------------
+ShopMind: Smart Grocery List
+
+----------------------------------------------------------------
+SUBTITLE  (max 30 chars)
+----------------------------------------------------------------
+Lists with store alerts
+
+----------------------------------------------------------------
+PRIMARY CATEGORY
+----------------------------------------------------------------
+Food & Drink
+(Secondary suggestion: Productivity)
+
+----------------------------------------------------------------
+PROMOTIONAL TEXT  (max 170 chars — editable anytime without review)
+----------------------------------------------------------------
+Never forget an item again. ShopMind keeps your running list ready and
+pings you the moment you're near a store that carries what you need.
+
+----------------------------------------------------------------
+DESCRIPTION  (max 4000 chars)
+----------------------------------------------------------------
+ShopMind is the grocery list that thinks ahead.
+
+Build one master list and ShopMind remembers it forever — then it does the
+hard part for you: the moment you walk near a store that actually carries
+items on your list, you get a smart heads-up naming exactly what to grab.
+
+Designed to remove friction for busy and ADHD brains, ShopMind turns the
+chaos of shopping into a calm, guided experience.
+
+SMART STORE ALERTS
+• Get notified when you're near a store carrying items you need — even with
+  the app closed.
+• Alerts name the specific items that store is likely to have.
+
+A LIST THAT WORKS THE WAY YOU DO
+• A persistent running list — items never vanish, just check them off.
+• Mark items urgent so they float to the top.
+• Group by aisle or keep it flat.
+• Swipe to delete, reorder in seconds, and a live notification widget.
+
+ADD ITEMS EFFORTLESSLY
+• Scan a barcode to add a product instantly.
+• Paste a recipe and ShopMind extracts the ingredients automatically.
+• Ask the built-in AI assistant: "ingredients for tacos for 4" — done.
+• One-tap templates for common shops.
+
+FIND THE BEST STORE
+• See nearby stores ranked by how much of your list they cover.
+• Plan an optimal multi-stop route across several stores.
+• One tap for turn-by-turn navigation.
+
+KNOW YOUR HABITS
+• Track spending per trip and per store.
+• See which store is cheapest for each item.
+• Trip history, streaks, and "running low" reminders for things you rebuy.
+
+PRIVATE BY DESIGN
+• No account required. Your lists and history live on your device.
+• We don't run servers that store your data.
+
+ShopMind is a subscription app billed at $9.99/month. Subscriptions auto-renew
+unless canceled at least 24 hours before the period ends; manage or cancel in
+your device's account settings.
+
+Terms: REPLACE_WITH_YOUR_TERMS_URL
+Privacy: REPLACE_WITH_YOUR_PRIVACY_URL
+
+----------------------------------------------------------------
+KEYWORDS  (max 100 chars, comma-separated, no spaces after commas)
+----------------------------------------------------------------
+grocery,shopping list,groceries,reminder,pantry,recipe,barcode,meal,budget,store,checklist,errands
+
+----------------------------------------------------------------
+SUPPORT URL
+----------------------------------------------------------------
+REPLACE_WITH_YOUR_SUPPORT_OR_PRIVACY_URL
+
+----------------------------------------------------------------
+MARKETING URL  (optional)
+----------------------------------------------------------------
+(leave blank or your landing page)
+
+----------------------------------------------------------------
+"WHAT'S NEW" (version 1.0.0)
+----------------------------------------------------------------
+Welcome to ShopMind! Smart store alerts, barcode scanning, an AI list
+assistant, multi-stop routing, price tracking, and more — all in one
+beautifully simple grocery app.
+
+================================================================
+IN-APP PURCHASE — set up under Features > Subscriptions
+================================================================
+Reference Name:        ShopMind Premium Monthly
+Product ID:            com.shopmind.app.premium_monthly
+Subscription Group:    ShopMind
+Duration:              1 Month, auto-renewable
+Price:                 $9.99 (Tier matching $9.99 USD)
+Localized Display Name: ShopMind Premium
+Description:           Unlocks the full ShopMind experience: smart store
+                       alerts, AI assistant, barcode scanning, multi-stop
+                       routing, price tracking, and unlimited lists.
+
+NOTE: You must complete the "Paid Applications" agreement and add banking +
+tax info under Business before subscriptions can go live.
+
+================================================================
+APP PRIVACY  ("nutrition labels" under App Privacy)
+================================================================
+ShopMind does not operate servers that collect user data. Recommended answers:
+
+• Do you collect data from this app?  ->  You can answer "No, we do not
+  collect data" IF you add no analytics/crash SDKs. Everything is stored
+  on-device, and location/AI/barcode calls go directly to third parties
+  (Google, Open Food Facts) without passing through your servers.
+
+• If Apple's reviewer asks about location: it is used ONLY for app
+  functionality (finding nearby stores / proximity alerts), processed on
+  device, not linked to identity, NOT used for tracking.
+
+• Camera: used only to read barcodes in real time; no images stored or sent.
+
+If you LATER add analytics (e.g., Firebase, Sentry), you must update these
+answers to declare what those SDKs collect.
+
+================================================================
+REVIEW NOTES  (paste into "Notes" for the reviewer)
+================================================================
+ShopMind is a grocery-list app. Key points for review:
+
+1. BACKGROUND LOCATION: Used to alert the user when they pass near a grocery
+   store that carries items on their list, even when the app is closed. This
+   is a core, user-facing feature explained during onboarding and toggled on
+   only with explicit opt-in in Settings > Background Tracking.
+
+2. SUBSCRIPTION: The app requires a $9.99/month auto-renewable subscription.
+   The paywall shows price, billing terms, and links to Terms of Use and
+   Privacy Policy before purchase. A "Restore purchases" option is provided.
+
+3. AI ASSISTANT: Optional. Uses the user's own free Google Gemini API key
+   entered in Settings; requests go directly to Google.
+
+No demo account is needed — the app has no login.
+================================================================
